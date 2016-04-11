@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35C972CC-71EA-4495-8B55-809CFB1712DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29FABABD-CC95-42E5-862D-F9570C4ADB48}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ContosoBooks", "src\ContosoBooks\ContosoBooks.xproj", "{6856BC5F-07AA-42EC-90AB-802E3C5B95FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6856BC5F-07AA-42EC-90AB-802E3C5B95FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6856BC5F-07AA-42EC-90AB-802E3C5B95FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6856BC5F-07AA-42EC-90AB-802E3C5B95FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6856BC5F-07AA-42EC-90AB-802E3C5B95FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6856BC5F-07AA-42EC-90AB-802E3C5B95FA} = {35C972CC-71EA-4495-8B55-809CFB1712DE}
+	EndGlobalSection
+EndGlobal
