@@ -54,6 +54,7 @@ namespace ContosoBooks.Models
                         Genre = "Picaresque"
                     }
                );
+               context.SaveChanges();
             }
         }
     }
